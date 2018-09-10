@@ -4,3 +4,10 @@ The goal of this project was to improve software debugging when simulating a VHD
 In order to solve such problems a processor-specific debugger developed in Tcl/Tk. The debugger presents the assembly code under execution and the certain important contents of the integer unit.
 
 To start the debugger invoke the "source debugger.tcl" command on the command line of ModelSim after loading a testbench.
+
+![Screenshot](screenshot/debugger.png)
+
+A screenshot of the debugger depicts:
+- pipeline stages, such as program counter value and instruction opcode
+- control/state registers (PSR, WIM, TBR)
+- general purpose registers, in windowed stucture
